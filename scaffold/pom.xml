@@ -16,7 +16,12 @@
     <description>web 项目脚手架父级 pom 文件</description>
 
     <modules>
-        <module>startup</module>
+        <module>launcher</module>
+        <module>web</module>
+        <module>sdk</module>
+        <module>service</module>
+        <module>dao</module>
+        <module>common</module>
     </modules>
 
     <properties>
@@ -28,7 +33,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.example.infrastructure.scaffold</groupId>
-                <artifactId>startup</artifactId>
+                <artifactId>launcher</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
