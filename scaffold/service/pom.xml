@@ -24,5 +24,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.unidt.infrastructure.scaffold</groupId>
+      <artifactId>dao</artifactId>
+    </dependency>
   </dependencies>
 </project>
