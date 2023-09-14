@@ -8,4 +8,12 @@
     </parent>
     <groupId>com.unidt.infrastructure.scaffold</groupId>
     <artifactId>common</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.unidt.infrastructure</groupId>
+            <artifactId>unidt-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

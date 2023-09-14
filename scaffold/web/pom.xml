@@ -21,6 +21,16 @@
             <groupId>com.unidt.infrastructure.scaffold</groupId>
             <artifactId>service</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.unidt.infrastructure.scaffold</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <finalName>web</finalName>
