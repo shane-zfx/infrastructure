@@ -10,7 +10,7 @@
 
     <groupId>com.example.infrastructure</groupId>
     <artifactId>scaffold</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>scaffold</name>
     <packaging>pom</packaging>
     <description>web 项目脚手架父级 pom 文件</description>
@@ -22,9 +22,11 @@
         <module>service</module>
         <module>dao</module>
         <module>common</module>
+        <module>generate</module>
     </modules>
 
     <properties>
+        <revision>0.0.1-SNAPSHOT</revision>
         <java.version>8</java.version>
         <springboot.starter.parent.version>2.7.15</springboot.starter.parent.version>
     </properties>

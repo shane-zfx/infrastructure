@@ -15,6 +15,8 @@
 > `dao`：数据模块
 > 
 > `common`：业务内通用工具包
+> 
+> `generate`：代码生成
 
 
 ## unidt-common

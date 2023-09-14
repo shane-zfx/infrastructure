@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.example.infrastructure</groupId>
         <artifactId>scaffold</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <groupId>com.example.infrastructure.scaffold</groupId>
     <artifactId>launcher</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>startup</name>
     <description>startup</description>
     <properties>

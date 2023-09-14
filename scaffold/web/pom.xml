@@ -4,13 +4,12 @@
     <parent>
         <groupId>com.example.infrastructure</groupId>
         <artifactId>scaffold</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <groupId>com.unidt.infrastructure.scaffold</groupId>
     <artifactId>web</artifactId>
-    <packaging>war</packaging>
-    <name>web Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <packaging>jar</packaging>
+    <name>web</name>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
